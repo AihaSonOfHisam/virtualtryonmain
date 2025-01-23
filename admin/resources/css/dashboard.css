@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ /* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333; /* Dark background */
+  color: white; /* Text color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sidebar .logo h1 {
+  font-size: 1.8rem; /* Match font size */
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.sidebar ul li {
+  width: 100%;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 15px 20px;
+  width: 100%;
+  transition: background 0.3s ease; /* Smooth transition effect */
+}
+
+.sidebar ul li a.active {
+  background-color: #4caf50; /* Highlight active link */
+}
+
+.sidebar ul li a:hover {
+  background-color: #575757; /* Darker hover effect */
+}
+
+/* Logout Button */
+.sidebar .logout {
+  background-color: #e74c3c; /* Red background */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 90%; /* Align with links */
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.sidebar .logout:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  /* Dashboard Stats */
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .stat-item {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 22%;
+  }
+  
+  .stat-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #34495e;
+    color: white;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+  }
+  
+  table td button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  table td .edit {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  table td .delete {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  table td .edit:hover {
+    background-color: #27ae60;
+  }
+  
+  table td .delete:hover {
+    background-color: #c0392b;
+  }
+  

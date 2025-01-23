@@ -1,0 +1,205 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar .logo h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    width: 100%;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.sidebar nav ul li a.active {
+    background-color: #4caf50;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Add Category Button */
+.add-category-btn {
+    margin-bottom: 20px;
+}
+
+.add-category-btn a {
+    text-decoration: none;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.add-category-btn a:hover {
+    background-color: #45a049;
+}
+
+/* Category Table */
+.category-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are combined between cells */
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Add table border */
+}
+
+.category-table thead {
+    background-color: #333;
+    color: white;
+}
+
+.category-table thead th {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add header cell border */
+}
+
+.category-table tbody tr {
+    border: 1px solid #ddd; /* Add row border */
+}
+
+.category-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.category-table tbody td {
+    padding: 15px;
+    border: 1px solid #ddd; /* Add cell border */
+    vertical-align: middle;
+}
+
+/* Image Styling (For Category Table) */
+.category-table tbody td img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Action Buttons */
+button.edit-btn, button.delete-btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+button.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+button.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+button.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.dashboard-overview {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.overview-item {
+    background-color: #f4f4f4;
+    padding: 60px; /* Further increase padding */
+    border-radius: 8px;
+    text-align: center;
+    width: 400px; /* Further increase width */
+    min-height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Add margin between boxes */
+    border-collapse: collapse; /* Ensure table borders are collapsed */
+}
+
+.overview-item h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.overview-item p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+

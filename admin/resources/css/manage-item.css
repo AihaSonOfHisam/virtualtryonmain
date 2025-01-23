@@ -1,0 +1,157 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar .logo h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    width: 100%;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.sidebar nav ul li a.active {
+    background-color: #4caf50;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Add Item Button */
+.add-item-btn {
+    margin-bottom: 20px;
+}
+
+.add-item-btn a {
+    text-decoration: none;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.add-item-btn a:hover {
+    background-color: #45a049;
+}
+
+/* Item Table */
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Add table border */
+}
+
+.item-table thead {
+    background-color: #333;
+    color: white;
+}
+
+.item-table thead th {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add header cell border */
+}
+
+.item-table tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.item-table img {
+    max-width: 100px;
+    border-radius: 4px;
+}
+
+/* Action Buttons */
+button.edit-btn, button.delete-btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+button.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+button.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
