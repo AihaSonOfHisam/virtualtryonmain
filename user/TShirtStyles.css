@@ -1,0 +1,152 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.search-bar input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account img {
+    width: 20px;
+    height: 20px;
+}
+
+.account span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation bar styles */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #87ceeb;
+}
+
+/* Main content styles */
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+/* Wrapper for header title and button */
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.add-shirt-btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-shirt-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* T-shirt display section */
+.tshirt-display {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tshirt-item {
+    text-align: center;
+}
+
+.tshirt-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tshirt-item p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

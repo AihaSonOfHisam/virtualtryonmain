@@ -1,0 +1,156 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.search-bar input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account img {
+    width: 20px;
+    height: 20px;
+}
+
+.account span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation Bar Styles */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a.active {
+    color: #87ceeb;
+}
+
+nav ul li a:hover {
+    color: #87ceeb;
+}
+
+/* Product Detail Styles */
+main {
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.product-detail {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.product-info {
+    max-width: 500px;
+}
+
+.product-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-info p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.try-on-btn {
+    background-color: #87ceeb;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.try-on-btn:hover {
+    background-color: #00aaff;
+}
+.search-bar button {
+    background-color: #5e4caf; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get the element to line up correctly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.search-bar button:hover {
+    background-color: #4557a0; /* Darker green on hover */
+}
+
+main h2 {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some top margin */
+}

@@ -1,0 +1,156 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.left-section {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center;    /* Centers content horizontally */
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Adjusts the form width */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #87ceeb;
+    box-shadow: 0 0 5px #87ceeb;
+}
+
+.btn {
+    background-color: #87ceeb;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5aadd8;
+}
+
+.guest-link {
+    display: inline-block;
+    margin-top: 5px;
+    color: #87ceeb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.guest-link:hover {
+    text-decoration: underline;
+}
+
+/* sign */
+/* Styling for the date input field */
+input[type="date"] {
+    color: #aaa; /* Placeholder color for the date field */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Optional: Adjust form heading to differentiate sections */
+h2 {
+    margin-bottom: 30px; /* More space under the heading */
+}
+
+/* Adjust padding and layout for better form alignment */
+form {
+    width: 300px; /* Shorter form width */
+    background-color: #f5f5f5; /* Light background for form */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Adjust button for a consistent look */
+.sign_btn {
+    margin-top: 10px; /* Add spacing above the button */
+}
+.search-bar button {
+    background-color: #5e4caf; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get the element to line up correctly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.search-bar button:hover {
+    background-color: #4557a0; /* Darker green on hover */
+}
+
+main h2 {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some top margin */
+}
